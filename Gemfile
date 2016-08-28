@@ -14,6 +14,9 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.0'
 
+gem 'react-rails', github: 'vipulnsward/react-rails', branch: 'sprockets-3-compat'
+gem 'sprockets-es6'
+
 group :development, :test do
   gem 'byebug'
 end

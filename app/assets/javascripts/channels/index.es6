@@ -1,0 +1,6 @@
+#= require action_cable
+#= require_self
+#= require_tree .
+
+var App = {};
+App.cable = ActionCable.createConsumer('ws://localhost:28080');
